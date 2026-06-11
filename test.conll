@@ -1,0 +1,91 @@
+# text = Sabah kahvaltısını hızlıca yapıp okula koştu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sabah	B-ADVP	_	O
+2	kahvaltısını	B-NP	_	O
+3	hızlıca	B-ADVP	_	O
+4	yapıp	B-VP	_	O
+5	okula	B-NP	_	O
+6	koştu	B-VP	_	O
+7	.	O	_	O
+
+# text = Yüksek dağlarda kar yağıyordu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yüksek	B-NP	_	O
+2	dağlarda	I-NP	_	O
+3	kar	B-NP	_	O
+4	yağıyordu	B-VP	_	O
+5	.	O	_	O
+
+# text = Sessiz kütüphanede ders çalıştık.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sessiz	B-NP	_	O
+2	kütüphanede	I-NP	_	O
+3	ders	B-NP	_	O
+4	çalıştık	B-VP	_	O
+5	.	O	_	O
+
+# text = Annesi her akşam uyumadan önce kitap okurdu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Annesi	B-NP	_	O
+2	her	B-ADVP	_	O
+3	akşam	I-ADVP	_	O
+4	uyumadan	B-VP	_	O
+5	önce	B-PP	_	O
+6	kitap	B-NP	_	O
+7	okurdu	B-VP	_	O
+8	.	O	_	O
+
+# text = Çalışkan öğrenciler sınavı geçti.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Çalışkan	B-NP	_	O
+2	öğrenciler	I-NP	_	O
+3	sınavı	B-NP	_	O
+4	geçti	B-VP	_	O
+5	.	O	_	O
+
+# text = Soğuk havada dışarı çıkmak istemiyorum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Soğuk	B-NP	_	O
+2	havada	I-NP	_	O
+3	dışarı	B-ADVP	_	O
+4	çıkmak	B-VP	_	O
+5	istemiyorum	I-VP	_	O
+6	.	O	_	O
+
+# text = Güzel bir müzik dinledim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Güzel	B-NP	_	O
+2	bir	I-NP	_	O
+3	müzik	I-NP	_	O
+4	dinledim	B-VP	_	O
+5	.	O	_	O
+
+# text = Köpek bahçede hızlı koştu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Köpek	B-NP	_	O
+2	bahçede	B-NP	_	O
+3	hızlı	B-ADVP	_	O
+4	koştu	B-VP	_	O
+5	.	O	_	O
+
+# text = Yeni kurulan şirket büyük başarı elde etti.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yeni	B-NP	_	O
+2	kurulan	I-NP	B-RELCL	B-RELCL
+3	şirket	I-NP	_	O
+4	büyük	B-NP	_	O
+5	başarı	I-NP	_	O
+6	elde	B-VP	_	O
+7	etti	I-VP	_	O
+8	.	O	_	O
+
+# text = Çok yorgun olduğum için erken yattım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Çok	B-ADVP	_	O
+2	yorgun	B-ADJP	_	O
+3	olduğum	B-VP	_	B-COMPCL
+4	için	I-VP	_	I-COMPCL
+5	erken	B-ADVP	_	O
+6	yattım	B-VP	_	O
+7	.	O	_	O
+
